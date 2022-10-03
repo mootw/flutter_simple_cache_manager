@@ -3,7 +3,7 @@ import 'dart:io';
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:simple_cache_manager/database.dart';
+import 'package:flutter_simple_cache_manager/database.dart';
 import 'package:synchronized/synchronized.dart';
 
 Future<String> get localCachePath async {
